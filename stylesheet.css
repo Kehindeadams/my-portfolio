@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none;
+    list-style: none;
+}
+.navbar .logo{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+body{
+    font-size: medium;
+    font-family: sans-serif
+}
+ul{
+    float: right;
+    margin-right: 40px;
+    padding-top: 20px 20px;
+    margin-top: -5%;
+    font-size: small;
+    font-family: sans-serif;
+}
+li{
+    display: inline-block;
+    margin: 0px 8px;
+    color: black;
+    line-height: 50px;
+}
+a{
+    font-size: 18px;
+    padding:5px 10px ;
+    color: black;
+}
+nav{
+    height: 50px;
+    width: 100%;
+}
+.roof{
+    background: black;
+    padding: 3px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.main, img{
+    width: 70%;
+    height: 10%;
+    margin-top: -5%;
+}
+.intro{
+    margin-top: 5%;
+}
+.middle, .last{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main, .intro{
+    width: 50%;
+}
+.journey, .skills{
+    width: 50%;
+}
+.journey p, .intro p{
+    margin-top: 10px;
+    padding-right: 10%;
+}
+.skills{
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    padding-left:2%;
+    margin-bottom: 20%;
+    background: whitesmoke;
+    padding: 3px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.skills p{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: red;
+    font-size: small;
+    margin: 26px o;
+    padding: 10px 10px;
+}
+main{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 5%;
+}
+a:hover{
+   color: red; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
